@@ -11,46 +11,33 @@
     <!-- Styling CSS -->
     <link rel="stylesheet" href="./css/mystyle.css">
 
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="#">
+
     <title>my-portfolio</title>
   </head>
   <body>
   	<!-- Navbar -->
-  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  	<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
 	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#">Portfolio</a>
+	    <a class="navbar-brand" href="./index.html">
+	    	<img src="./media/images/favicon.png" style="width: 60px;">
+	    </a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+	          <a class="nav-link active" aria-current="page" href="#portfolio">Home</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">About</a>
+	          <a class="nav-link scroll-link" href="#about">About</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">Skill</a>
-	        </li>
-	        <li class="nav-item dropdown">
-	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-	            Dropdown
-	          </a>
-	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-	            <li><a class="dropdown-item" href="#">Action</a></li>
-	            <li><a class="dropdown-item" href="#">Another action</a></li>
-	            <li><hr class="dropdown-divider"></li>
-	            <li><a class="dropdown-item" href="#">Something else here</a></li>
-	          </ul>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	          <a class="nav-link scroll-link" href="#">Skill</a>
 	        </li>
 	      </ul>
-	      <form class="d-flex">
-	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-	        <button class="btn btn-outline-success" type="submit">Search</button>
-	      </form>
 	    </div>
 	  </div>
 	</nav>
@@ -61,11 +48,25 @@
 	  <br>
 	  <div class="middle">
 	    <div class="text">
-	    	<h3>Ramesh Kumar</h3>
+	    	<h1>Ramesh Kumar</h1>
 	    </div>
 	  </div>
 	</div>
 	<!-- End of Profile Image -->
+	<!-- About -->
+	<div class="about" style="margin: 3%;">
+		<h1>About</h1>
+		<p>
+			Hello, World! I'm <strong>Ramesh Kumar</strong>, a <strong>Computer Science</strong> student.
+		</p>
+	</div>
+	<!-- End About -->
+	<!-- Skills -->
+	<div class="skill" style="margin: 3%;">
+		<h1>Skills</h1>
+
+	</div>
+	<!-- End Skills -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
