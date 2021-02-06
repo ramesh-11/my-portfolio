@@ -5,6 +5,7 @@ body {
 .profile {
   position: relative;
   width: 50%;
+  margin: 2%;
 }
 
 .image {
